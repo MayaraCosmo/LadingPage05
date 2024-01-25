@@ -53,4 +53,9 @@ img {
 .sair {
     position: absolute;
     left: 90%;
+    border-radius: 20%;
+}
+
+.salvarendereco {
+    position: absolute;
 }
