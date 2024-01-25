@@ -1,0 +1,56 @@
+body {
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto {
+position: absolute;
+top: 10vh;
+width: 50vw;
+color: lightcyan;
+
+}
+
+.pesquisa {
+    position: absolute;
+    top: 30vh;
+    
+}
+
+input {
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    border-style: groove;
+    border-color: cadetblue;
+}
+
+img {
+    width: 100vw;
+    height: 60vh;
+
+}
+
+.simbolo {
+    position: absolute;
+    color: gainsboro;
+    padding: 14%;
+    right: 44%;
+}
+
+.entrar {
+    position: absolute;
+    left: 80%;
+}
+
+.sair {
+    position: absolute;
+    left: 90%;
+}
