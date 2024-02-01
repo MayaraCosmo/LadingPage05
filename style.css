@@ -23,17 +23,17 @@ color: lightcyan;
     position: absolute;
     top: 38vh;
     align-items: center;
-    border: 2px solid green;
-    
+   
+
 }
+    
 
 input {
     border-radius: 15px;
     width: 20vw;
     height: 5vh;
     border-style: groove;
-    border-color: cadetblue;
-    align-items: center;
+    border: 1px solid #ffffff; 
 }
 
 img {
@@ -46,24 +46,44 @@ img {
     position: absolute;
     top: 39vh;
     right: 58%;
+    color: #808080;
 }
 
 .entrar {
     position: absolute;
-    left: 80%;
+    left: 88%;
+    font-family: verdana;
+    font-size: 2vh;
+    top: 4vh;
+    color: lightcyan;
+    
 }
 
 .sair {
     position: absolute;
     top: 3vh;
     height: 100%;
-    left: 90%;
-    border-radius: 50%;
-    color: aquamarine;
+    left: 93%;
+
+}
+
+button {
+    font-family: verdana;
+    font-size: 2vh;
+    border-radius: 10px;
+    height: 5vh;
+    width: 5vw;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #ffffff; 
 }
 
 .salvarendereco {
     position: absolute;
-    top: 50vh;
-
+    top: 46vh;
+    font-family: verdana;
+    font-size: 2vh;
+    text-decoration: underline;
+    color: lightcyan;
+    
 }
