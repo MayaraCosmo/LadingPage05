@@ -19,8 +19,11 @@ color: lightcyan;
 }
 
 .pesquisa {
+    gap: 2px;
     position: absolute;
     top: 38vh;
+    align-items: center;
+    border: 2px solid green;
     
 }
 
@@ -30,6 +33,7 @@ input {
     height: 5vh;
     border-style: groove;
     border-color: cadetblue;
+    align-items: center;
 }
 
 img {
@@ -40,9 +44,8 @@ img {
 
 .simbolo {
     position: absolute;
-    color:red;
-    top: 38vh;
-    right: 44%;
+    top: 39vh;
+    right: 58%;
 }
 
 .entrar {
@@ -52,10 +55,11 @@ img {
 
 .sair {
     position: absolute;
-    background-color: black;
+    top: 3vh;
     height: 100%;
     left: 90%;
-    border-radius: 20%;
+    border-radius: 50%;
+    color: aquamarine;
 }
 
 .salvarendereco {
